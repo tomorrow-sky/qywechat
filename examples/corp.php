@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Corp $corp */
+/** @var \Tsky\Qywechat\Api\Corp $corp */
 $corp = $app->get('corp');
 
 try {

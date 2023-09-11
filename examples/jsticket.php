@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\ApiCache\JsApiTicket $jsApiTicket */
+/** @var \Tsky\Qywechat\ApiCache\JsApiTicket $jsApiTicket */
 $jsApiTicket = $app->get('jsApiTicket');
 
 try {

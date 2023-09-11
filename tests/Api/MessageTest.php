@@ -1,13 +1,13 @@
 <?php
 
-namespace WeWork\Tests\Api;
+namespace Tsky\Qywechat\Tests\Api;
 
 use Mockery\MockInterface;
-use WeWork\Api\Message;
-use WeWork\Http\HttpClientInterface;
-use WeWork\Message\Receiver;
-use WeWork\Message\ResponseMessageInterface;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Api\Message;
+use Tsky\Qywechat\Http\HttpClientInterface;
+use Tsky\Qywechat\Message\Receiver;
+use Tsky\Qywechat\Message\ResponseMessageInterface;
+use Tsky\Qywechat\Tests\TestCase;
 
 class MessageTest extends TestCase
 {

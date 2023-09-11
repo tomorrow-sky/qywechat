@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Traits;
+namespace Tsky\Qywechat\Traits;
 
 use Psr\SimpleCache\CacheInterface;
 

@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Invoice $invoice */
+/** @var \Tsky\Qywechat\Api\Invoice $invoice */
 $invoice = $app->get('invoice');
 
 try {

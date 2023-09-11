@@ -1,12 +1,12 @@
 <?php
 
-namespace WeWork\Tests\Http;
+namespace Tsky\Qywechat\Tests\Http;
 
 use GuzzleHttp\Client;
 use Psr\Log\LoggerInterface;
-use WeWork\ApiCache\Token;
-use WeWork\Http\ClientFactory;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\ApiCache\Token;
+use Tsky\Qywechat\Http\ClientFactory;
+use Tsky\Qywechat\Tests\TestCase;
 
 class ClientFactoryTest extends TestCase
 {

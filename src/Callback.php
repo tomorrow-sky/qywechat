@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork;
+namespace Tsky\Qywechat;
 
 use SimpleXMLElement;
 use Symfony\Component\HttpFoundation\Request;
-use WeWork\Crypt\WXBizMsgCrypt;
-use WeWork\Message\ReplyMessageInterface;
+use Tsky\Qywechat\Crypt\WXBizMsgCrypt;
+use Tsky\Qywechat\Message\ReplyMessageInterface;
 
 class Callback
 {

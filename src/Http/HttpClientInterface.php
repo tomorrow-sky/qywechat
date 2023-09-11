@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Http;
+namespace Tsky\Qywechat\Http;
 
 use Psr\Http\Message\StreamInterface;
 

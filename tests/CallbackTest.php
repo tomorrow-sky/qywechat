@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork\Tests;
+namespace Tsky\Qywechat\Tests;
 
 use Symfony\Component\HttpFoundation\Request;
-use WeWork\Callback;
-use WeWork\Crypt\WXBizMsgCrypt;
-use WeWork\Message\ReplyMessageInterface;
+use Tsky\Qywechat\Callback;
+use Tsky\Qywechat\Crypt\WXBizMsgCrypt;
+use Tsky\Qywechat\Message\ReplyMessageInterface;
 
 class CallbackTest extends TestCase
 {

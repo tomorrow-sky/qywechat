@@ -1,12 +1,12 @@
 <?php
 
-namespace WeWork\Tests\Api;
+namespace Tsky\Qywechat\Tests\Api;
 
 use Mockery\MockInterface;
 use Psr\Http\Message\StreamInterface;
-use WeWork\Api\Media;
-use WeWork\Http\HttpClientInterface;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Api\Media;
+use Tsky\Qywechat\Http\HttpClientInterface;
+use Tsky\Qywechat\Tests\TestCase;
 
 class MediaTest extends TestCase
 {

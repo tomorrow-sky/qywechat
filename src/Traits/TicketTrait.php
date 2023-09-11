@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\Traits;
+namespace Tsky\Qywechat\Traits;
 
-use WeWork\ApiCache\Ticket;
+use Tsky\Qywechat\ApiCache\Ticket;
 
 trait TicketTrait
 {

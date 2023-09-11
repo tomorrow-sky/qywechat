@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\ApiCache\Ticket $ticket */
+/** @var \Tsky\Qywechat\ApiCache\Ticket $ticket */
 $ticket = $app->get('ticket');
 
 try {

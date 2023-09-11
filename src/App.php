@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork;
+namespace Tsky\Qywechat;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use GuzzleHttp\Client;
@@ -13,12 +13,12 @@ use Symfony\Component\Cache\Simple\FilesystemCache;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\HttpFoundation\Request;
-use WeWork\ApiCache\JsApiTicket;
-use WeWork\ApiCache\Ticket;
-use WeWork\ApiCache\Token;
-use WeWork\Crypt\WXBizMsgCrypt;
-use WeWork\Http\ClientFactory;
-use WeWork\Http\HttpClient;
+use Tsky\Qywechat\ApiCache\JsApiTicket;
+use Tsky\Qywechat\ApiCache\Ticket;
+use Tsky\Qywechat\ApiCache\Token;
+use Tsky\Qywechat\Crypt\WXBizMsgCrypt;
+use Tsky\Qywechat\Http\ClientFactory;
+use Tsky\Qywechat\Http\HttpClient;
 
 class App extends ContainerBuilder
 {
@@ -111,7 +111,7 @@ class App extends ContainerBuilder
     private function registerMonolog(): void
     {
         $this->register('logger', Logger::class)
-            ->addArgument('WeWork')
+            ->addArgument('Tsky\Qywechat')
             ->addMethodCall('setTimezone', [new \DateTimeZone('PRC')])
             ->addMethodCall('pushHandler', [new Reference('logger_handler')]);
     }

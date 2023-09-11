@@ -1,10 +1,10 @@
 <?php
 
-namespace WeWork\Tests;
+namespace Tsky\Qywechat\Tests;
 
-use WeWork\ApiCache\JsApiTicket;
-use WeWork\ApiCache\Ticket;
-use WeWork\JSSdk;
+use Tsky\Qywechat\ApiCache\JsApiTicket;
+use Tsky\Qywechat\ApiCache\Ticket;
+use Tsky\Qywechat\JSSdk;
 
 class JSSdkTest extends TestCase
 {

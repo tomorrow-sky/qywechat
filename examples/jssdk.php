@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\JSSdk $jssdk */
+/** @var \Tsky\Qywechat\JSSdk $jssdk */
 $jssdk = $app->get('jssdk');
 
 try {

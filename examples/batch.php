@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Batch $batch */
+/** @var \Tsky\Qywechat\Api\Batch $batch */
 $batch = $app->get('batch');
 
 try {

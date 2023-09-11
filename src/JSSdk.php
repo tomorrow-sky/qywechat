@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork;
+namespace Tsky\Qywechat;
 
-use WeWork\Crypt\PrpCrypt;
-use WeWork\Traits\CorpIdTrait;
-use WeWork\Traits\JsApiTicketTrait;
-use WeWork\Traits\TicketTrait;
+use Tsky\Qywechat\Crypt\PrpCrypt;
+use Tsky\Qywechat\Traits\CorpIdTrait;
+use Tsky\Qywechat\Traits\JsApiTicketTrait;
+use Tsky\Qywechat\Traits\TicketTrait;
 
 class JSSdk
 {

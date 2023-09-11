@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork\Tests\Http;
+namespace Tsky\Qywechat\Tests\Http;
 
 use Psr\Log\LoggerInterface;
-use WeWork\ApiCache\Token;
-use WeWork\Http\Middleware;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\ApiCache\Token;
+use Tsky\Qywechat\Http\Middleware;
+use Tsky\Qywechat\Tests\TestCase;
 
 class MiddlewareTest extends TestCase
 {

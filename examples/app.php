@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-$app = new \WeWork\App(
+$app = new \Tsky\Qywechat\App(
     [
         'corp_id'  => 'xxxxxxxxxxxxxxxxxx',
         'secret'   => 'fsAQmTHCGvd5ZsRJnkr9jj9aCR2sqOKypAUw6D3Jy5Y',

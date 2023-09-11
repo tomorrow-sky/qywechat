@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\Message;
+namespace Tsky\Qywechat\Message;
 
-class Markdown implements \WeWork\Message\ResponseMessageInterface
+class Markdown implements \Tsky\Qywechat\Message\ResponseMessageInterface
 {
 
     /**

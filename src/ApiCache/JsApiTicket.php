@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\ApiCache;
+namespace Tsky\Qywechat\ApiCache;
 
-use WeWork\Traits\HttpClientTrait;
-use WeWork\Traits\SecretTrait;
+use Tsky\Qywechat\Traits\HttpClientTrait;
+use Tsky\Qywechat\Traits\SecretTrait;
 
 class JsApiTicket extends AbstractApiCache
 {
@@ -16,7 +16,7 @@ class JsApiTicket extends AbstractApiCache
     {
         $unique = md5($this->secret);
 
-        return md5('wework.api.js_ticket.' . $unique);
+        return md5('Tsky\Qywechat.api.js_ticket.' . $unique);
     }
 
     /**

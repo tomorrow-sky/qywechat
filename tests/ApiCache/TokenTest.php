@@ -1,10 +1,10 @@
 <?php
 
-namespace WeWork\Tests\ApiCache;
+namespace Tsky\Qywechat\Tests\ApiCache;
 
-use WeWork\ApiCache\Token;
-use WeWork\Http\HttpClientInterface;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\ApiCache\Token;
+use Tsky\Qywechat\Http\HttpClientInterface;
+use Tsky\Qywechat\Tests\TestCase;
 
 class TokenTest extends TestCase
 {

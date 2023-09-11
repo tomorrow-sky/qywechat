@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\Tests\Http;
+namespace Tsky\Qywechat\Tests\Http;
 
-use WeWork\Http\Response;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Http\Response;
+use Tsky\Qywechat\Tests\TestCase;
 
 class ResponseTest extends TestCase
 {

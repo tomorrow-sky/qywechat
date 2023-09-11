@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\ApiCache\Token $token */
+/** @var \Tsky\Qywechat\ApiCache\Token $token */
 $token = $app->get('token');
 
 try {

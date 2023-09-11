@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork\Tests\ApiCache;
+namespace Tsky\Qywechat\Tests\ApiCache;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use Psr\SimpleCache\CacheInterface;
-use WeWork\ApiCache\AbstractApiCache;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\ApiCache\AbstractApiCache;
+use Tsky\Qywechat\Tests\TestCase;
 
 class AbstractApiCacheTest extends TestCase
 {

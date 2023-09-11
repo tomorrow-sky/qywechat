@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork\Tests\Api;
+namespace Tsky\Qywechat\Tests\Api;
 
 use Mockery\MockInterface;
-use WeWork\Api\CheckIn;
-use WeWork\Http\HttpClientInterface;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Api\CheckIn;
+use Tsky\Qywechat\Http\HttpClientInterface;
+use Tsky\Qywechat\Tests\TestCase;
 
 class CheckInTest extends TestCase
 {

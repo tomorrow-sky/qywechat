@@ -1,10 +1,10 @@
 <?php
 
-namespace WeWork\Tests\Message;
+namespace Tsky\Qywechat\Tests\Message;
 
-use WeWork\Message\MPArticle;
-use WeWork\Message\MPNews;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Message\MPArticle;
+use Tsky\Qywechat\Message\MPNews;
+use Tsky\Qywechat\Tests\TestCase;
 
 class MPNewsTest extends TestCase
 {

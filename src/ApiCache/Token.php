@@ -1,10 +1,10 @@
 <?php
 
-namespace WeWork\ApiCache;
+namespace Tsky\Qywechat\ApiCache;
 
-use WeWork\Traits\CorpIdTrait;
-use WeWork\Traits\HttpClientTrait;
-use WeWork\Traits\SecretTrait;
+use Tsky\Qywechat\Traits\CorpIdTrait;
+use Tsky\Qywechat\Traits\HttpClientTrait;
+use Tsky\Qywechat\Traits\SecretTrait;
 
 class Token extends AbstractApiCache
 {
@@ -17,7 +17,7 @@ class Token extends AbstractApiCache
     {
         $unique = md5($this->secret);
 
-        return md5('wework.api.token.' . $unique);
+        return md5('Tsky\Qywechat.api.token.' . $unique);
     }
 
     /**

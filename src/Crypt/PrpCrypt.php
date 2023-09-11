@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Crypt;
+namespace Tsky\Qywechat\Crypt;
 
 /**
  * 提供接收和推送给公众平台消息的加解密接口

@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Agent $agent */
+/** @var \Tsky\Qywechat\Api\Agent $agent */
 $agent = $app->get('agent');
 
 try {

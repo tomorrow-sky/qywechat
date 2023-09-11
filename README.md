@@ -3,7 +3,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/pithyone/wechat/v/unstable)](https://packagist.org/packages/pithyone/wechat)
 [![License](https://poser.pugx.org/pithyone/wechat/license)](https://packagist.org/packages/pithyone/wechat)
 
-# WeWork
+# Tsky\Qywechat
 
 > 最最最简单易用的企业微信SDK，基于pithyone/wechat包，拓展新增自定义api
 

@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\CheckIn $checkIn */
+/** @var \Tsky\Qywechat\Api\CheckIn $checkIn */
 $checkIn = $app->get('checkIn');
 
 try {
@@ -11,6 +11,6 @@ try {
 }
 
 try {
-    $checkIn->getData(\WeWork\Api\CheckIn::TYPE_ALL, 1492617600, 1492790400, ['james', 'paul']);
+    $checkIn->getData(\Tsky\Qywechat\Api\CheckIn::TYPE_ALL, 1492617600, 1492790400, ['james', 'paul']);
 } catch (Exception $e) {
 }

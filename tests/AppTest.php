@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\Tests;
+namespace Tsky\Qywechat\Tests;
 
-use WeWork\App;
+use Tsky\Qywechat\App;
 
 class AppTest extends TestCase
 {
@@ -39,24 +39,24 @@ class AppTest extends TestCase
     public function getProvider()
     {
         return [
-            [\WeWork\ApiCache\Token::class, 'token'],
-            [\WeWork\Callback::class, 'callback'],
-            [\WeWork\Api\Agent::class, 'agent'],
-            [\WeWork\Api\AppChat::class, 'appChat'],
-            [\WeWork\Api\Batch::class, 'batch'],
-            [\WeWork\Api\CheckIn::class, 'checkIn'],
-            [\WeWork\Api\Corp::class, 'corp'],
-            [\WeWork\Api\CRM::class, 'crm'],
-            [\WeWork\Api\Department::class, 'department'],
-            [\WeWork\Api\Invoice::class, 'invoice'],
-            [\WeWork\Api\Media::class, 'media'],
-            [\WeWork\Api\Menu::class, 'menu'],
-            [\WeWork\Api\Message::class, 'message'],
-            [\WeWork\Api\Tag::class, 'tag'],
-            [\WeWork\Api\User::class, 'user'],
-            [\WeWork\ApiCache\JsApiTicket::class, 'jsApiTicket'],
-            [\WeWork\ApiCache\Ticket::class, 'ticket'],
-            [\WeWork\JSSdk::class, 'jssdk'],
+            [\Tsky\Qywechat\ApiCache\Token::class, 'token'],
+            [\Tsky\Qywechat\Callback::class, 'callback'],
+            [\Tsky\Qywechat\Api\Agent::class, 'agent'],
+            [\Tsky\Qywechat\Api\AppChat::class, 'appChat'],
+            [\Tsky\Qywechat\Api\Batch::class, 'batch'],
+            [\Tsky\Qywechat\Api\CheckIn::class, 'checkIn'],
+            [\Tsky\Qywechat\Api\Corp::class, 'corp'],
+            [\Tsky\Qywechat\Api\CRM::class, 'crm'],
+            [\Tsky\Qywechat\Api\Department::class, 'department'],
+            [\Tsky\Qywechat\Api\Invoice::class, 'invoice'],
+            [\Tsky\Qywechat\Api\Media::class, 'media'],
+            [\Tsky\Qywechat\Api\Menu::class, 'menu'],
+            [\Tsky\Qywechat\Api\Message::class, 'message'],
+            [\Tsky\Qywechat\Api\Tag::class, 'tag'],
+            [\Tsky\Qywechat\Api\User::class, 'user'],
+            [\Tsky\Qywechat\ApiCache\JsApiTicket::class, 'jsApiTicket'],
+            [\Tsky\Qywechat\ApiCache\Ticket::class, 'ticket'],
+            [\Tsky\Qywechat\JSSdk::class, 'jssdk'],
         ];
     }
 }

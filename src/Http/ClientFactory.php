@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork\Http;
+namespace Tsky\Qywechat\Http;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use Psr\Log\LoggerInterface;
-use WeWork\ApiCache\Token;
+use Tsky\Qywechat\ApiCache\Token;
 
 class ClientFactory
 {

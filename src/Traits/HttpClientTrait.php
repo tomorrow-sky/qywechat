@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\Traits;
+namespace Tsky\Qywechat\Traits;
 
-use WeWork\Http\HttpClientInterface;
+use Tsky\Qywechat\Http\HttpClientInterface;
 
 trait HttpClientTrait
 {

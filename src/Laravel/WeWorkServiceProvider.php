@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\Laravel;
+namespace Tsky\Qywechat\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use WeWork\App;
+use Tsky\Qywechat\App;
 
 class WeWorkServiceProvider extends ServiceProvider
 {
@@ -23,7 +23,7 @@ class WeWorkServiceProvider extends ServiceProvider
     {
         $this->publishes(
             [
-                __DIR__.'/config.php' => config_path('wework.php'),
+                __DIR__.'/config.php' => config_path('Tsky\Qywechat.php'),
             ]
         );
     }

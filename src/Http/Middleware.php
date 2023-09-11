@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Http;
+namespace Tsky\Qywechat\Http;
 
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
@@ -11,7 +11,7 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
-use WeWork\ApiCache\Token;
+use Tsky\Qywechat\ApiCache\Token;
 
 class Middleware
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace WeWork\Tests\Crypt;
+namespace Tsky\Qywechat\Tests\Crypt;
 
 use DOMDocument;
-use WeWork\Crypt\WXBizMsgCrypt;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Crypt\WXBizMsgCrypt;
+use Tsky\Qywechat\Tests\TestCase;
 
 class WXBizMsgCryptTest extends TestCase
 {

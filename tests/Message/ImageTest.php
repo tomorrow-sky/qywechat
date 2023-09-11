@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\Tests\Message;
+namespace Tsky\Qywechat\Tests\Message;
 
-use WeWork\Message\Image;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Message\Image;
+use Tsky\Qywechat\Tests\TestCase;
 
 class ImageTest extends TestCase
 {

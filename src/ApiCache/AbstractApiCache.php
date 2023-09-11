@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\ApiCache;
+namespace Tsky\Qywechat\ApiCache;
 
-use WeWork\Traits\CacheTrait;
+use Tsky\Qywechat\Traits\CacheTrait;
 
 abstract class AbstractApiCache
 {

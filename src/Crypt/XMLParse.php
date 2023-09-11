@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Crypt;
+namespace Tsky\Qywechat\Crypt;
 
 use DOMDocument;
 

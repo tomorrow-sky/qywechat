@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\Tests\Message;
+namespace Tsky\Qywechat\Tests\Message;
 
-use WeWork\Message\File;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Message\File;
+use Tsky\Qywechat\Tests\TestCase;
 
 class FileTest extends TestCase
 {

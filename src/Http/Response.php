@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Http;
+namespace Tsky\Qywechat\Http;
 
 class Response extends \GuzzleHttp\Psr7\Response
 {

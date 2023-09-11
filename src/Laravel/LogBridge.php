@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Laravel;
+namespace Tsky\Qywechat\Laravel;
 
 use Illuminate\Support\Facades\Log;
 use Psr\Log\AbstractLogger;

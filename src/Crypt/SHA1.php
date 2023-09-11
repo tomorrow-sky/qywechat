@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Crypt;
+namespace Tsky\Qywechat\Crypt;
 
 /**
  * 计算公众平台的消息签名接口

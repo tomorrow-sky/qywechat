@@ -1,11 +1,11 @@
 <?php
 
-namespace WeWork\Api;
+namespace Tsky\Qywechat\Api;
 
-use WeWork\Message\Receiver;
-use WeWork\Message\ResponseMessageInterface;
-use WeWork\Traits\AgentIdTrait;
-use WeWork\Traits\HttpClientTrait;
+use Tsky\Qywechat\Message\Receiver;
+use Tsky\Qywechat\Message\ResponseMessageInterface;
+use Tsky\Qywechat\Traits\AgentIdTrait;
+use Tsky\Qywechat\Traits\HttpClientTrait;
 
 class Message
 {

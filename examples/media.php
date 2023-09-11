@@ -2,11 +2,11 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Media $media */
+/** @var \Tsky\Qywechat\Api\Media $media */
 $media = $app->get('media');
 
 try {
-    $media->upload('file', __DIR__ . '/public/wework.txt');
+    $media->upload('file', __DIR__ . '/public/Tsky\Qywechat.txt');
 } catch (Exception $e) {
 }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Crypt;
+namespace Tsky\Qywechat\Crypt;
 
 /**
  * 提供基于PKCS7算法的加解密接口

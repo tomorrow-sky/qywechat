@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\ApiCache;
+namespace Tsky\Qywechat\ApiCache;
 
-use WeWork\Traits\HttpClientTrait;
+use Tsky\Qywechat\Traits\HttpClientTrait;
 
 class Ticket extends AbstractApiCache
 {
@@ -13,7 +13,7 @@ class Ticket extends AbstractApiCache
      */
     protected function getCacheKey(): string
     {
-        return md5('wework.api.ticket');
+        return md5('Tsky\Qywechat.api.ticket');
     }
 
     /**

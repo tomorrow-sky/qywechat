@@ -1,8 +1,8 @@
 <?php
 
-namespace WeWork\Traits;
+namespace Tsky\Qywechat\Traits;
 
-use WeWork\ApiCache\JsApiTicket;
+use Tsky\Qywechat\ApiCache\JsApiTicket;
 
 trait JsApiTicketTrait
 {

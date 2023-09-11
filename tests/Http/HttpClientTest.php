@@ -1,13 +1,13 @@
 <?php
 
-namespace WeWork\Tests\Http;
+namespace Tsky\Qywechat\Tests\Http;
 
 use GuzzleHttp\Client;
 use Mockery\MockInterface;
 use org\bovigo\vfs\vfsStream;
 use Psr\Http\Message\StreamInterface;
-use WeWork\Http\HttpClient;
-use WeWork\Tests\TestCase;
+use Tsky\Qywechat\Http\HttpClient;
+use Tsky\Qywechat\Tests\TestCase;
 
 class HttpClientTest extends TestCase
 {

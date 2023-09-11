@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Menu $menu */
+/** @var \Tsky\Qywechat\Api\Menu $menu */
 $menu = $app->get('menu');
 
 try {

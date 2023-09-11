@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\Api;
+namespace Tsky\Qywechat\Api;
 
-use WeWork\Traits\AgentIdTrait;
-use WeWork\Traits\HttpClientTrait;
+use Tsky\Qywechat\Traits\AgentIdTrait;
+use Tsky\Qywechat\Traits\HttpClientTrait;
 
 class Menu
 {

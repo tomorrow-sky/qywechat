@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Department $department */
+/** @var \Tsky\Qywechat\Api\Department $department */
 $department = $app->get('department');
 
 try {

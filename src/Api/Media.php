@@ -1,9 +1,9 @@
 <?php
 
-namespace WeWork\Api;
+namespace Tsky\Qywechat\Api;
 
 use Psr\Http\Message\StreamInterface;
-use WeWork\Traits\HttpClientTrait;
+use Tsky\Qywechat\Traits\HttpClientTrait;
 
 class Media
 {

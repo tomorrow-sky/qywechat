@@ -9,7 +9,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="WeWork Test Suite">
+        <testsuite name="Tsky\Qywechat Test Suite">
             <directory suffix="Test.php">./tests</directory>
         </testsuite>
     </testsuites>

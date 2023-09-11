@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\User $user */
+/** @var \Tsky\Qywechat\Api\User $user */
 $user = $app->get('user');
 
 try {

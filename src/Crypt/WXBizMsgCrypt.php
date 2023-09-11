@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Crypt;
+namespace Tsky\Qywechat\Crypt;
 
 /**
  * 1.第三方回复加密消息给公众平台；

@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Tests;
+namespace Tsky\Qywechat\Tests;
 
 use ReflectionClass;
 

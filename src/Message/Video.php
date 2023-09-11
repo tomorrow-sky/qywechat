@@ -1,6 +1,6 @@
 <?php
 
-namespace WeWork\Message;
+namespace Tsky\Qywechat\Message;
 
 class Video implements ResponseMessageInterface, ReplyMessageInterface
 {

@@ -2,7 +2,7 @@
 
 $app = require __DIR__ . '/app.php';
 
-/** @var \WeWork\Api\Tag $tag */
+/** @var \Tsky\Qywechat\Api\Tag $tag */
 $tag = $app->get('tag');
 
 try {
