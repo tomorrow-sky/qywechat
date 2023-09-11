@@ -5,7 +5,7 @@
 
 # WeWork
 
-> 最最最简单易用的企业微信SDK
+> 最最最简单易用的企业微信SDK，基于pithyone/wechat包，拓展新增自定义api
 
 ## Requirement
 
