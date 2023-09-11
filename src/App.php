@@ -49,13 +49,20 @@ class App extends ContainerBuilder
     /**
      * @param array $config
      */
-    public function __construct(array $config)
+    public function __construct(array $config, $services = [])
     {
         parent::__construct();
 
         $this->config = new ArrayCollection($config);
 
+        $this->addApiServices($services);
+
         $this->registerServices();
+    }
+
+    public function addApiServices($services = [])
+    {
+        $this->apiServices = array_merge($this->apiServices, $services);
     }
 
     /**
