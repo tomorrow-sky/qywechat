@@ -26,5 +26,15 @@
         "symfony/cache": "^4.1",
         "symfony/dependency-injection": "^4.1",
         "symfony/http-foundation": "^4.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WeWork\\Laravel\\WeWorkServiceProvider"
+            ]
+        }
     }
 }
