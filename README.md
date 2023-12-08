@@ -18,7 +18,7 @@
 ## Installation
 
 ```bash
-composer require tomorrow-sky/wechat
+composer require tomorrow-sky/qywechat
 ```
 
 ## License
