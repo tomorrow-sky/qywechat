@@ -21,7 +21,7 @@
         "ext-json": "*",
         "ext-openssl": "*",
         "doctrine/collections": "^1.5",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^6.3|^7.0",
         "monolog/monolog": "^1.23",
         "symfony/cache": "^4.1",
         "symfony/dependency-injection": "^4.1",
